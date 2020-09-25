@@ -1,4 +1,4 @@
-@Library('shared-library2') _
+@Library('shared-library') _
 pipeline{
     agent any
     stages{
@@ -7,7 +7,7 @@ pipeline{
                
                 gitcheckout(
                     branch: "master",
-                    url: "https://github.com/shreyadonthula/mvn-branch.git"
+                    url: "https://github.com/Hithesh198/mvn-branch.git"
                 )
             }
         } 
